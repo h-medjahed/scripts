@@ -9,4 +9,4 @@ Set-ExecutionPolicy Unrestricted
 $chocourl="https://chocolatey.org/install.ps1"
 icm $executioncontext.InvokeCommand.NewScriptBlock((New-Object Net.WebClient).DownloadString($chocourl))
 # Example using chocolatey to install notepad++
-Invoke-Expression("choco install notepadplusplus.install -y")
+# Invoke-Expression("choco install notepadplusplus.install -y")
